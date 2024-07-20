@@ -1,0 +1,34 @@
+https://quickref.me/css3
+
+Display- none //as doesn't exist
+         block
+         inline
+         inline-block //first act as block and then inline "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+         flex
+         grid
+Visibility- hidden // takes space
+            visible
+
+Position -  static 
+          , relative - relative to its original position
+          , fixed - positioned relative to its initial containing block
+          , absolute - positioned relative to its closest positioned ancestor (if any) or to the initial containing block.
+          , sticky - positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block
+
+position: absolute;
+top: 0px; left: 0px;
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+Tailwind CSS
+    https://tailwindcss.com/docs/installation

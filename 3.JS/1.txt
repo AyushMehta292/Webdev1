@@ -1,0 +1,33 @@
+// Sequence
+    Const, let, var --> Data Types --> Functions --> Loops & arr.forEach() --> Higher order fns. --> setTimeout, setInterval, clearInterval
+    --> Hoisting of var and normal function -->  Math.random() --> Call, apply, bind --> DOM --> Bubbling and Delegation --->  Regex -->
+    new Date() --> localStorage.setItem("age", 23) .getItem("age") .removeItem("age") | JSON.stringyfy() , JSON.parse() --> OOPs (prototype, instance of,
+    getter, setter, extends, super,) 
+
+// DOM
+    parent.children gives HTML Collection, we can convert it to array using:
+    Array.from(parent.children)
+//
+    Bubbling : e.stopPropagation()
+    Forms : e.preventDefault()
+
+// call, apply, bind
+    a.call(b, parameters)   a.apply(b, [parameters])    c= a.bind(b, parameters)
+Trick:- a ko jo bhi chahiye sb b se mil jaata hai
+
+
+For Locomotive scroll, GSAP and Scroll Trigger:
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+        <link rel="stylesheet" href="style.css">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+            integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>

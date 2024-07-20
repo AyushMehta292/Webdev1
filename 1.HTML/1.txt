@@ -1,0 +1,7 @@
+https://quickref.me/html#google_vignette
+
+<p title="I'm a tooltip which will be displayed when you will mouseover me"> It can be any tag's attribute </p>
+
+Create a bookmark link:
+    <a href="#C4"> Jump to Ch4</a>
+    <h2 id="C4"> This is Ch4</h2>
